@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hexkinetics:zero_g/spell",
+    "hexkinetics:fast/spell",
+    "hexkinetics:move_block/spell"
+  ]
+}

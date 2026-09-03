@@ -1,32 +1,29 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
-
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
-
-# gradle
-build
-.gradle
-keys.properties
-changelog.md
-
-# other
-eclipse
-run
-
-
-
-Session.vim
-plot/
-
-doc/out.html
-doc/__pycache__/
+# NeoForge pre39 publication exclusions
+.gradle/
+.gradle-user-home/
+.gradle-tmp/
+.bounded-gradle/
+.idea/
+.kotlin/
+.maven-artifacts/
+**/build/
+run/
+run-client/
+run-server/
+runs/
+logs/
+build-logs/
+cache/
+caches/
+scratch/
+libs/
+crash-reports/
+*.log
+*.class
+*.tmp
+*.bak
+*.lock
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+hs_err_pid*

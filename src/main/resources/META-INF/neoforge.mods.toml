@@ -1,0 +1,49 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[5.12,)"
+license = "MIT"
+
+[[mods]]
+modId = "hexkinetics"
+version = "${version}"
+displayName = "HexKinetics"
+logoFile = "logo.png"
+authors = "Sonunte"
+description = '''
+A Hex Casting addon focused on motion, raycasts, translocation, and vector operations.
+'''
+displayURL = "https://github.com/Sonunte/HexKinetics"
+
+[[dependencies.hexkinetics]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.234,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hexkinetics]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hexkinetics]]
+modId = "kotlinforforge"
+type = "required"
+versionRange = "[5.12.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.hexkinetics]]
+modId = "hexcasting"
+type = "required"
+versionRange = "[0.12.0-devel-pre-35,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.hexkinetics]]
+modId = "patchouli"
+type = "required"
+versionRange = "[1.21-90,)"
+ordering = "AFTER"
+side = "BOTH"
