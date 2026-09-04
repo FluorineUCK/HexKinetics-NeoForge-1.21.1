@@ -1,14 +1,3 @@
-<!-- pre39-port-header:start -->
-> **NeoForge 1.21.1 · Hex Casting `0.12.0-devel-pre-39` · Branch `pre39`**
->
-> **原项目 / Upstream:** [https://github.com/Sonunte/HexKinetics](https://github.com/Sonunte/HexKinetics)  
-> **移植基准 / Base:** [`ab7a71b43c6e6eb4a5932327eff7d9b6d8de56ab`](https://github.com/Sonunte/HexKinetics/commit/ab7a71b43c6e6eb4a5932327eff7d9b6d8de56ab)  
-> **许可证 / License:** 上游基准未提供项目根许可证；[已提供的素材许可及来源](UPSTREAM.md)  
-> **文档 / Documentation:** [移植说明](PORTING.md) · [上游原始文档、署名与版权清单](UPSTREAM.md)
->
-> This is a NeoForge port maintained by FluorineUCK, not the original upstream release. Original authorship and license notices are retained. Loader/version/build instructions in inherited upstream text describe the upstream project; the current port baseline is listed above.
-<!-- pre39-port-header:end -->
-
 # HexKinetics
 
 Here are my notes on this project. Here are my plans for the future. If you are looking for this addon documentation go to https://sonunte.github.io/HexKinetics/ instead. Remember all unimplemented patterns are only "maybies" and are likely to change in the future.
